@@ -1,0 +1,63 @@
+.table {
+  display: grid;
+  grid-template-columns:
+    8.5% 24% 30%
+    28% 8.5%;
+  grid-template-rows: 1fr auto;
+  /* align-content: center; */
+}
+
+.table > div {
+  border: 2px solid black;
+  background-color: rgb(84, 244, 143);
+  padding: 5px;
+}
+
+.table > div:nth-child(3n + 2) {
+  background: white;
+}
+
+.table > div:nth-child(3n + 3) {
+  background: white;
+}
+
+.table > div:nth-child(3n + 4) {
+  background: white;
+}
+
+.table > div:nth-child(3n + 5) {
+  background-color: cornflowerblue;
+}
+.table > div:nth-child(3n + 6) {
+  background: black;
+}
+
+.edit-form {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column: 2/5;
+}
+
+@media screen and (max-width: 1220px) {
+  .table {
+    grid-template-columns:
+      10% 28% 30%
+      20% 100px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .table {
+    grid-template-columns:
+      80px 20% 30%
+      20% 100px;
+  }
+  .table .column-entries {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .edit-form {
+    grid-column: span 5;
+  }
+}

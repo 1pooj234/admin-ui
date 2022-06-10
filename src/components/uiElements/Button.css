@@ -1,0 +1,144 @@
+.submit_btn {
+  display: inline;
+  margin-top: 10px;
+  background-color: #fff000;
+  width: 100px;
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  transition: 200ms;
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.submit_btn:not(:disabled):hover,
+.submit_btn:not(:disabled):focus {
+  outline: 0;
+  background: #f4e603;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.submit_btn:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  -webkit-filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}
+
+.edit-btn {
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.delete-btn {
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+}
+
+.icon {
+  margin-top: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+.arrow-btn {
+  margin: 0 5px 0 5px;
+  border-radius: 20px;
+}
+
+.number-btn {
+  border-radius: 20px;
+  margin: 0 10px 0 10px;
+  padding: 5px 10px;
+}
+
+.arrow-btn:disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+  background-color: #fc9cfe;
+}
+
+.number-btn:hover {
+  background-color: coral;
+}
+
+.arrow-btn:hover {
+  background-color: cornflowerblue;
+}
+.edit-btn,
+.arrow-btn,
+.number-btn,
+.delete-btn:hover {
+  cursor: pointer;
+}
+
+.delete-btn2 {
+  align-items: center;
+  background-color: #fb9999;
+  background-position: 0 0;
+  border: 1px solid #fee0e0;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #d33a2c;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 33.4929px;
+  list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg)
+    none;
+  padding: 2px 12px;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: none;
+  text-underline-offset: 1px;
+  transition: border 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  word-break: break-word;
+}
+
+.delete-btn2:active,
+.delete-btn2:hover,
+.delete-btn2:focus {
+  outline: 0;
+}
+
+.delete-btn2:active {
+  background-color: #d33a2c;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #ffffff;
+}
+
+.delete-btn2:hover {
+  background-color: #ffe3e3;
+  border-color: #faa4a4;
+}
+
+.delete-btn2:active:hover,
+.delete-btn2:focus:hover,
+.delete-btn2:focus {
+  background-color: #d33a2c;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #ffffff;
+}
+
+.delete-btn2:disabled {
+  background-color: rgb(67, 67, 67);
+  cursor: not-allowed;
+}

@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: "Verdana", sans-serif;
+}
+
+.div-block {
+  text-align: center;
+}
+
+.no-users-found-text {
+  color: blue;
+  font-size: 20px;
+}
+
+.input-error-text {
+  color: red;
+  margin-right: 10px;
+  font-size: 6px;
+}
