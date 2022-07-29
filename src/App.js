@@ -1,17 +1,13 @@
 import "./App.css";
-import UserPage from "./pages/UsersPage";
-import UserProvider from "./context/UserContext";
-import Navbar from "./components/navigaiton/Navbar";
-function App() {
+import UsersPage from "./page/UsersPage";
+export default function App() {
   return (
-    <div className="App">
-      <UserProvider>
-        <Navbar>
-          <UserPage />
-        </Navbar>
-      </UserProvider>
+    <div>
+      <div className="nav_bar">
+        <h2>Admin</h2>
+        <p>check the checkbox to delete</p>
+      </div>
+      <UsersPage />
     </div>
   );
 }
-
-export default App;

@@ -1,0 +1,12 @@
+.btn_section {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.btn_section button {
+  margin: 0 3px 0 3px;
+  width: 30px;
+}

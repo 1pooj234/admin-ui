@@ -1,5 +1,5 @@
 .checkbox-container {
-  margin: 15px 0 15px 0px;
+  margin: 0;
 }
 
 input[type="checkbox"] {
@@ -50,50 +50,4 @@ input[type="checkbox"]:focus:checked:not(:disabled):after {
 
 input[type="checkbox"]:disabled {
   opacity: 0.5;
-}
-
-/*text inputs */
-
-.input-container {
-  position: relative;
-  display: inline;
-  margin-bottom: 25px;
-  margin-right: 20px;
-  padding: 10px;
-}
-.input-container label {
-  margin-right: 10px;
-  font-size: 16px;
-  color: #fff;
-  transition: all 0.5s ease-in-out;
-}
-
-.input-container input[type*="search"] {
-  color: black;
-  width: 40%;
-}
-
-.input-container input[type*="search"]:focus {
-  border-bottom: 2px solid rgb(109, 254, 203);
-}
-
-.input-container input {
-  border: 0;
-  border-bottom: 1px solid #555;
-  background: transparent;
-  width: 80%;
-  padding: 8px 0 5px 0;
-  font-size: 16px;
-  color: #a6c7ff;
-}
-.input-container input:focus {
-  border: none;
-  outline: none;
-  border-bottom: 1px solid greenyellow;
-}
-
-.input-error-text {
-  color: red;
-  margin-right: 10px;
-  font-size: 10px;
 }

@@ -1,19 +1,37 @@
 body {
   margin: 0;
   font-family: "Verdana", sans-serif;
-}
-
-.div-block {
   text-align: center;
 }
 
-.no-users-found-text {
-  color: blue;
-  font-size: 20px;
+.nav_bar {
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  background-color: rgb(255, 0, 102);
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
-.input-error-text {
+.nav_bar h2 {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.nav_bar p {
+  font-size: 14px;
+  margin: 20px 0 0 0;
+  font-weight: bold;
+  color: white;
+}
+
+.select_all_text {
+  color: rgb(187, 1, 197);
+}
+
+.error_text {
+  font-weight: 400;
+  font-size: 11px;
   color: red;
-  margin-right: 10px;
-  font-size: 6px;
 }

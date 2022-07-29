@@ -1,0 +1,20 @@
+.search_section {
+  margin: 10px 0 10px 0;
+}
+
+input[type="search"] {
+  width: 240px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-left: 3px solid black;
+  border-bottom: 2px solid black;
+  transform-origin: right;
+  transition: all 1s ease-out;
+}
+
+input[type="search"]:focus {
+  border-left: 5px solid black;
+  border-bottom: 2px solid rgb(107, 220, 255);
+}

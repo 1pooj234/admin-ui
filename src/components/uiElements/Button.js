@@ -2,11 +2,11 @@ import "./Button.css";
 const Button = (props) => {
   return (
     <button
-      className={props.className}
+      disabled={props.isdisabled}
       onClick={props.click}
-      disabled={props.isDisabled}
+      className={props.className}
     >
-      {props.children}
+      {props.image ? <img src={props.image} className="icon" /> : props.label}
     </button>
   );
 };
